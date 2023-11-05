@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Njimi Faysa Portfolio</title>
+  </head>
+  <body>
+    <div id="accueil">
+      <nav>
+        <div class="nav__content">
+          <div class="logo"><a href="#accueil">Njimi Faysa</a></div>
+          <ul>
+            <li><a href="#accueil">Acceuil</a></li>
+            <li><a href="#a-propos-de-moi">A propos de moi</a></li>
+            <li><a href="#portefolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="section">
+        <div class="section__container">
+          <div class="content">
+            <p class="titre">Bienvenue sur mon site !</p>
+            <h1 class="title">
+              Je suis <span>NJIMI FAYSA</span><br>étudiante en but réseaux &<br>
+            télécommunications
+            </h1>
+            <p class="description">
+              Découvrez mes projets et ma passion pour l'informatique 
+              et les réseaux. Explorez mes compétences et mes ambitions dans ce domaine 
+              passionnant des technologies de l'information.
+            </p>
+            <section class="main-section">  
+       </section>
+          
+             <!--lien vers A propos de moi -->
+            <div class="action__btns">
+         
+              <button class="hire__me" onclick="scrollToSection('a-propos-de-moi')">Découvrir plus</button>
+            </div>
+          </div>
+          <!------------------Image ------------------>
+          <div class="image">
+            <img src="assets/faysa1.jpg" alt="profile" />
+          </div>
+      </div>
+      <div class="section-grise1 section">
+      </div>
+    
+        <!------------------Section A propos de moi------------------>
+    <section id="a-propos-de-moi" class="section">
+      <h2>A propos de moi</h2>
+      <img src="assets/png.png" class="col40">
+      <div class="col40 folat-right">
+          <div class="texte-avec-ligne-vertical">
+              <p  class="texte-avec-ligne-vertical"> <br><br>Passionnée par l'intersection entre l'art et la technologie, 
+                j'ai toujours été fascinée par la manière dont ces deux domaines se rejoignent. <br>
+                j'ai exploré divers logiciels tels que Paint, Photoshop,Adobe illustrator et pour créer des œuvres graphique en 2D,
+                 mon aventure a commencé <br>dès le jour où j'ai ouvert le logiciel de design Krita pour la première fois, ouvrant ainsi
+                 la porte à un monde infini de créativité numérique.
+                 <br>Dès mon plus jeune âge, mon intérêt pour les ordinateurs a été éveillé, me poussant à approfondir mes connaissances en 
+                 poursuivant<br> des études spécialisées dans le domaine des réseaux et des télécommunications.<br> 
+              
+          </div> 
+       </div>
+
+     
+  <!--Experiences-->  
+       
+        <h3 class="title"></h3>
+        <h3>Experience</h3>
+        <br> 
+        <div class="tableau">
+          <div class="colonne">
+                      <h3>Jan 2023 - Mar 2023</h3>
+                      <p> <span>Stagiaire</span><br>
+                          Clinique Saint George<br>
+                          Nice<br>
+                      </p>
+                      <ul>
+                        <li>-Programmation des logiciels et controle d'accés</li>
+                          <li>-Maintenance de réseau informatique</li>
+                        
+                      </ul>
+                  </div>
+                  <div class="colonne">
+                      <h3>Nov 2022 - Déc 2022</h3>
+                      <p> <span>Stagiaire</span><br>
+                          Entreprise AMS<br>
+                          Nice<br>
+                      </p>
+                      <ul>
+                          <li>-Installation des caméras de surveillance vidéo</li>
+                          <li>-Achat/vente de produits informatiques</li>
+                          <li>-Réparation de produits connectés et récupération de données pour les clients</li>
+                      </ul>
+                  </div>
+                  <div class="colonne">
+                      <h3>Jul 2021 - Jui 2021</h3>
+                      <p> <span>Stagiaire</span><br>
+                          LDLC<br>
+                          Nice<br>
+                      </p>
+                      <ul>
+                          <li>-Montage, formatage des ordinateurs</li>
+                          <li>-Diagnostic d'ordinateurs et systemes</li>
+                          <li>-Installation de systèmes d'exploitation</li>
+                      </ul>
+                 </div>
+             </div>  
+         </div>
+  <!--Competences-->
+  <h2>Compétences</h2>
+  
+      
+      <div class="competences">
+       
+        <ul>
+            <li>-Systèmes d'Exploitation et Réseaux</li>
+            <li>-Montage d'ordinateurs</li>
+            <li>-Compétence professionnelle complète</li>
+            <li>-Maîtrise des logiciels bureautiques</li>
+            <li>-Designer Photoshop 2D</li>
+            <li>-Connaissances des langages de programmation</li>
+        </ul>
+    </div>
+  </div>
+  <div class="section-grise2 section">
+    <!--Triangleviolet-->
+    <div class="section-grise1 section">
+    </div>
+<!-- Contenu de votre section "Portefolio" va ici -->
+    <div id="portefolio">
+      <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+    
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+        
+         <!--Section grise 2-->
+        <div class="section-grise2 section">
+          <h2>Portfolio</h2>
+          <br>
+          
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wHNlPoX0IF0?si=CYL3TSHMUjAROUb-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           <p>Dans cette vidéo  que j'ai créée, je présente une cyberattaque informatique. 
+            <br>J'explique les détails techniques et les implications de cette attaque. </p>  
+          <!--<table class="col-portfolio folat-right" >
+              <tr><td><div class="bare-vertical"></div></td><td><img src="project2small.jpg" style="width: 100%;"></td></tr>
+              <tr><td></td><td align="center"><a href="portfolio-site-application.html">Application mobile.<br>Intelligence artificiel</a></td></tr>
+          </table>
+      </div>
+       Section Blanche-->
+    </div>
+   </section>
+   <div id="Contact">
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+              e.preventDefault();
+  
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+  </script>
+      
+       <!--Section grise 2-->
+      <div class="section-grise2 section">
+        <h2>Contact</h2>
+       
+  
+          <!-- Formulaire de contact -->
+          <div class="contact-form">
+             
+  
+          <p>Vous pouvez également me contacter par e-mail à l'adresse : <a href="mailto:prenom.nom@email.com">prenom.nom@email.com</a></p>
+  
+       
+      </section>
+  
+    
+  
+      
+</body>
+</html>
